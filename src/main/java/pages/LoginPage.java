@@ -25,9 +25,9 @@ public class LoginPage extends PageFunctions {
         inputText(LoginResources.inputPassword.getResource(), passText);
 
     }
-    public void clickLogin () {
-        clickElement(LoginResources.loginButton.getResource());
-    }
+//    public void clickLogin () {
+//        clickElement(LoginResources.loginButton.getResource());
+//    }
     public void checkLoginUrl () {
         Assert.assertEquals(driver.getCurrentUrl(), GeneralResources.loginPageUrlFailedLogin.getResource());
     }
