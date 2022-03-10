@@ -23,7 +23,7 @@ public class HomePage extends PageFunctions {
         checkIfAllElementsAreDisplayed(HomePageResources.getAllLocators(), softAssert);
      }
 
-
+// comment
 
 // this is the comment for the sake of the comment
 
