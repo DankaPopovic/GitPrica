@@ -6,3 +6,7 @@ Feature: Homepage scenarios
     Scenario: Check elements presence after clicking Home Button
     When The user navigates to the Home button
     Then All elements should be present
+
+  Scenario: Check elements presence after clicking Home Button
+    When The user navigates to the Login button
+    Then All elements should be present
